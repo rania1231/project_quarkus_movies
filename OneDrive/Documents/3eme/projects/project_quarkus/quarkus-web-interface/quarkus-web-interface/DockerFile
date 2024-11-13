@@ -1,0 +1,6 @@
+# FROM openjdk:17-jdk-alpine
+# WORKDIR /opt
+# ENV PORT 8181
+# EXPOSE 8181
+# COPY target/*.jar /opt/app.jar
+# ENTRYPOINT exec java $JAVA_OPT -jar app.jar
